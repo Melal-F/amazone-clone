@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #0f1111;
+  --color-muted: #565959;
+  --color-link: #2162a1;
+  --color-link-hover: #c45500;
+  --color-mast: #131921;
+  --color-nav: #232f3e;
+  --color-nav-hover: #37475a;
+  --color-search: #febd69;
+  --color-search-hover: #f3a847;
+  --color-scope: #e6e6e6;
+  --color-scope-hover: #d4d4d4;
+  --color-cart: #f08804;
+  --color-primary: #ffd814;
+  --color-primary-hover: #f7ca00;
+  --color-buy: #ffa41c;
+  --color-buy-hover: #fa8900;
+  --color-price: #c10015;
+  --color-deal: #cc0c39;
+  --color-stock: #0b7b3c;
+  --color-line: #d5d9d9;
+  --color-line-strong: #888c8c;
+  --color-floor: #eaeded;
+  --color-star: #ffa41c;
+  --color-soft: #f0f2f2;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: #fff;
+  color: #0f1111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.nav-scroll {
+  scrollbar-width: none;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  display: none;
+}

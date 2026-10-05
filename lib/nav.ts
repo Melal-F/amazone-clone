@@ -1,0 +1,15 @@
+export const NAV_LINKS = [
+  { label: "Today's Deals", href: "/products?deals=1" },
+  { label: "Best Sellers", href: "/products?sort=rating" },
+  { label: "New Releases", href: "/products?sort=newest" },
+  { label: "Electronics", href: "/products?category=Electronics" },
+  { label: "Computers", href: "/products?category=Computers" },
+  { label: "Home", href: "/products?category=Home" },
+  { label: "Kitchen", href: "/products?category=Kitchen" },
+  { label: "Fashion", href: "/products?category=Fashion" },
+  { label: "Beauty", href: "/products?category=Beauty" },
+  { label: "Gaming", href: "/products?category=Gaming" },
+  { label: "Books", href: "/products?category=Books" },
+  { label: "Sports", href: "/products?category=Sports" },
+  { label: "Customer Service", href: "/account" },
+];
